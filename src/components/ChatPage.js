@@ -5,7 +5,7 @@ import { useStyles, theme } from "./styles";
 import axios from "axios";
 
 //export const API_URL = `http://localhost:5000`;
-export const API_URL = `https://anonymous-chatback.gilgamesheu.repl.co/`;
+export const API_URL = `https://anonymous-chatback.gilgamesheu.repl.co`;
 
 function ChatPage({ username, onLogout }) {
   const classes = useStyles();
