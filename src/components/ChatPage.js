@@ -5,7 +5,7 @@ import { useStyles, theme } from "./styles";
 import axios from "axios";
 
 //export const API_URL = `http://localhost:5000`;
-export const API_URL = `https://anonymous-chat-fzgc.onrender.com/`;
+export const API_URL = `https://anonymous-chat-fzgc.onrender.com`;
 
 function ChatPage({ username, onLogout }) {
   const classes = useStyles();
@@ -173,4 +173,3 @@ function ChatPage({ username, onLogout }) {
 }
 
 export default ChatPage;
-//1
