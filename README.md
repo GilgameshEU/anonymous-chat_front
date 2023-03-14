@@ -12,5 +12,6 @@ Simple anonymous chat without registration, only username need for login. After 
 ## Stack
 
 front-end: react+mui
+
  back-end: node.js+express+mysql+sequelize orm
 
